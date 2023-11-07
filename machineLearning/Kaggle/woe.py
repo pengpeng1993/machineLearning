@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import scipy.stats as stats
 
-train_df = pd.read_csv("./data/cs-training-p.csv")
-test_df = pd.read_csv("./data/cs-test-p.csv")
+train_df = pd.read_csv("data/cs-training-p.csv")
+test_df = pd.read_csv("data/cs-test-p.csv")
 
 
 # print(train_df.shape)  # (146392, 11)

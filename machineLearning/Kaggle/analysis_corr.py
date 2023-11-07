@@ -3,8 +3,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 plt.rcParams['font.sans-serif'] = ['KaiTi']
-train_df = pd.read_csv("./data/cs-training-p.csv")
-test_df = pd.read_csv("./data/cs-test-p.csv")
+train_df = pd.read_csv("data/cs-training-p.csv")
+test_df = pd.read_csv("data/cs-test-p.csv")
 
 print(train_df.shape)  # (146392, 11)
 print(test_df.shape)  # (99096, 11)
